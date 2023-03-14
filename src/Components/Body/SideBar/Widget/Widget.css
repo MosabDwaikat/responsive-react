@@ -1,0 +1,17 @@
+.sidebar-widget {
+  border: 10px solid rgb(0, 39, 39);
+  margin-bottom: 2em;
+  padding: 0.5em;
+}
+
+.Widget-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(194, 143, 44);
+  margin-top: 0;
+  display: block;
+}
+
+.widget-body {
+  font-size: 0.875rem;
+}

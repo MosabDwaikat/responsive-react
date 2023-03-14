@@ -1,0 +1,58 @@
+.PostFeatured-article {
+  border-bottom: rgb(0, 39, 39) 2px solid;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.PostFeatured-article-img {
+  max-width: 100%;
+  display: block;
+}
+
+.PostFeatured-article-info {
+  font-size: 0.875rem;
+  margin: 1em 0;
+}
+
+.PostFeatured-article-body {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: rgb(0, 39, 39);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.PostFeatured-article-title {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  color: rgb(194, 143, 44);
+  margin-top: 0;
+}
+.PostFeatured-article-read-more {
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(194, 143, 44);
+}
+.PostFeatured-article-read-more:hover,
+.PostFeatured-article-read-more:focus {
+  font-size: 0.875rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(0, 121, 121);
+}
+
+@media (min-width: 675px) {
+  .PostFeatured-article-img {
+    order: -2;
+  }
+
+  .PostFeatured-article-info {
+    order: -1;
+  }
+}

@@ -1,0 +1,7 @@
+@media (min-width:675px) {
+    aside {
+        width: 25%;
+        min-width: 200px;
+        margin-left: 1em;
+    }
+}

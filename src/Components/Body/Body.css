@@ -1,0 +1,18 @@
+.body-container {
+    
+    width: 95%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.body-container-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+@media (min-width:675px) {
+    .body-container-flex {
+        flex-direction: row;
+        
+    }
+    
+} 

@@ -1,0 +1,25 @@
+.Header-title-div {
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  color: rgb(194, 143, 44);
+  margin-top: 0;
+  text-align: center;
+}
+
+.Header-subtitle {
+  /* Logo Subtitle*/
+  font-weight: 800;
+  color: rgb(0, 121, 121);
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.Header-title {
+  font-size: 2rem;
+  margin: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  color: rgb(194, 143, 44);
+  display: block;
+}
